@@ -1,0 +1,26 @@
+# Strategy and run settings. Edit here, not in code.
+bankroll_start: 20          # paper and live starting balance, dollars
+stake_pct: 0.05             # share of current balance per order
+entry_price: 0.25
+exit_price: 0.45
+entry_window_s: 120         # buy orders stay open this long
+both_fill_window_s: 10      # second fill within this many seconds also counts
+fill_rule: strict           # strict = trade below price; touch = at or below. Both are reported.
+# Fees. Source: https://docs.polymarket.us/fees.md (checked 2026-10-01)
+# Taker fee = 0.0695 * C * p * (1-p). Maker rebate = -0.0125 * C * p * (1-p).
+# The strategy only rests limit orders, so no taker fee applies.
+# Maker rebate is set to 0 on purpose: ignoring it keeps results conservative.
+taker_fee: 0.0695
+maker_fee: 0.0
+# Polymarket US trades whole contracts, minimum 1. The international minimum is 5,
+# which would skip every trade on a $20 bankroll, so the proxy uses the US minimum.
+min_shares: 1
+floor_balance: 12           # live trading halts at or below this balance
+max_consecutive_losses: 5   # live trading halts after this many losses in a row
+lookback_hours: 6           # paper job re-scores this many past hours each run
+backtest_windows: 700       # how many past closed windows the backtest scores
+paper_days: 14
+data_api_page: 1000
+data_api_max_offset: 9000   # if a window needs more pages than this, it is excluded as truncated
+min_fills_for_verdict: 100
+hit_breakeven: 0.5556       # PRD pass bar: 25/45
