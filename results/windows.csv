@@ -1,2 +1,6 @@
 window_start_utc,window_start,market_id,source,result,trade_count,excluded_reason,status,p1_fill_side,p1_fill_s,p1_exit_hit,p1_exit_s,p2_fill_side,p2_fill_s,p2_exit_hit,p2_exit_s,touch_fills,touch_hits,p1_shares,p1_pnl,p2_shares,p2_pnl,balance_after
 2026-10-01T01:00Z,1790816400,5144787,INTL_PROXY,up,605,,no_fill,,,,,,,,,0,0,,,,,20.0
+2026-10-01T01:15Z,1790817300,5144896,INTL_PROXY,up,686,,filled,up,36,1,63,,,,,1,1,4,0.8,,,20.8
+2026-10-01T01:30Z,1790818200,5144966,INTL_PROXY,down,1000,,filled,up,53,0,,,,,,1,0,4,-1.0,,,19.8
+2026-10-01T01:45Z,1790819100,5145056,INTL_PROXY,down,468,,no_fill,,,,,,,,,0,0,,,,,19.8
+2026-10-01T02:00Z,1790820000,5145249,INTL_PROXY,up,492,,no_fill,,,,,,,,,0,0,,,,,19.8
