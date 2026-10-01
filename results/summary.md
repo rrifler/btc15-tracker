@@ -16,24 +16,14 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **NOT ENOUGH DATA**
-- Windows scored: 65; excluded: 0
-- Fill rate: 23.1% of scored windows had a fill (0 too small)
+- Windows scored: 69; excluded: 0
+- Fill rate: 21.7% of scored windows had a fill (0 too small)
 - Fills that reached 45c: 7 of 15 = 46.7% (95% range 24.8% to 69.9%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-2.15 (balance $17.85 from $20)
 - Longest losing streak: 2
 - Strict vs touch: strict 7/15 = 46.7%; touch 8/16 = 50.0%. The verdict uses strict.
 
 ## Spot-checked windows
-
-### 2026-10-01T11:00Z (market 5153157, result down)
-Scored: p1 up filled at 92s, exit hit 0; p2 none. Profit p1 -0.75.
-Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.5099998215, 6s@0.48, 8s@0.45, 92s@0.24, 98s@0.19, 101s@0.19, 105s@0.1799999856, 105s@0.17, 111s@0.15, 111s@0.1531565657, 116s@0.17, 116s@0.16 ...
-Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.5, 3s@0.5, 3s@0.5, 3s@0.5, 3s@0.5, 3s@0.5, 3s@0.49, 5s@0.53, 5s@0.53, 5s@0.5, 5s@0.5, 5s@0.5 ...
-
-### 2026-10-01T11:30Z (market 5153322, result up)
-Scored: p1 down filled at 78s, exit hit 1; p2 none. Profit p1 0.6.
-Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 6s@0.6055592316, 9s@0.5899999712, 15s@0.61, 15s@0.6, 24s@0.5899999848, 26s@0.59, 27s@0.59, 33s@0.6001612368, 35s@0.61, 39s@0.63, 41s@0.65, 44s@0.67 ...
-Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 78s@0.25, 78s@0.24, 114s@0.45, 116s@0.46, 116s@0.46, 117s@0.46, 117s@0.4599998822, 125s@0.46, 125s@0.4599999992, 126s@0.5, 128s@0.53, 128s@0.51 ...
 
 ### 2026-10-01T14:00Z (market 5155375, result down)
 Scored: p1 up filled at 71s, exit hit 1; p2 none. Profit p1 0.6.
@@ -51,4 +41,4 @@ Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 99s@0.2, 107s@0.22, 110s@0.19, 117s@0.23, 119s@0.24, 171s@0.21, 174s@0.15, 174s@0.15, 176s@0.1617, 180s@0.14, 185s@0.1, 185s@0.09 ...
 
 
-_Updated 2026-10-01 17:24Z_
+_Updated 2026-10-01 18:29Z_
