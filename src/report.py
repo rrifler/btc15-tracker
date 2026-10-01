@@ -142,6 +142,8 @@ def write_summary(path, cfg, backtest_rows, paper_rows, sources, spot_text=""):
     pm = metrics(paper_rows, cfg) if paper_rows else None
     if bm and pm:
         overall = combined_verdict(bm["verdict"], pm["verdict"], bm["hit_rate"], pm["hit_rate"], cfg)
+    elif bm and bm["verdict"] == "FAIL":
+        overall = "FAIL"
     else:
         overall = "NOT ENOUGH DATA"
     lines = [f"# BTC 15-min strategy tracker: {overall}", "",
