@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **NOT ENOUGH DATA**
-- Windows scored: 88; excluded: 1 (result_missing: 1)
-- Fill rate: 21.6% of scored windows had a fill (0 too small)
-- Fills that reached 45c: 9 of 19 = 47.4% (95% range 27.3% to 68.3%; pass needs the low end above 55.6% and at least 100 fills)
-- Paper profit after fees: $-2.45 (balance $17.55 from $20)
+- Windows scored: 93; excluded: 0
+- Fill rate: 22.6% of scored windows had a fill (0 too small)
+- Fills that reached 45c: 11 of 21 = 52.4% (95% range 32.4% to 71.7%; pass needs the low end above 55.6% and at least 100 fills)
+- Paper profit after fees: $-1.25 (balance $18.75 from $20)
 - Longest losing streak: 2
-- Strict vs touch: strict 9/19 = 47.4%; touch 10/20 = 50.0%. The verdict uses strict.
+- Strict vs touch: strict 11/21 = 52.4%; touch 12/22 = 54.5%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -45,5 +45,10 @@ Scored: p1 down filled at 68s, exit hit 0; p2 none. Profit p1 -0.75.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.46, 6s@0.45, 6s@0.45, 9s@0.46, 11s@0.48, 12s@0.47, 17s@0.5275117272, 18s@0.55, 18s@0.5599998098, 18s@0.55, 18s@0.54, 18s@0.5399999151 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.5049800368, 3s@0.5599999961, 5s@0.5599998682, 8s@0.53, 9s@0.5299999868, 9s@0.549999945, 11s@0.5299999868, 11s@0.5399999568, 14s@0.5499999828, 18s@0.4599999828, 68s@0.21, 68s@0.2099999995 ...
 
+### 2026-10-01T23:00Z (market 5166144, result down)
+Scored: p1 up filled at 68s, exit hit 1; p2 none. Profit p1 0.6.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 68s@0.2490384615, 89s@0.25, 107s@0.24, 111s@0.25, 119s@0.25, 120s@0.25, 219s@0.4599999387, 219s@0.45, 231s@0.4599999387, 231s@0.4599999387, 237s@0.45, 248s@0.45 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.56, 5s@0.5441666667, 6s@0.6410612977, 6s@0.6335979513, 8s@0.64, 9s@0.68, 9s@0.6999999054, 9s@0.6999999754, 9s@0.67, 9s@0.6699999823, 9s@0.6799999547, 9s@0.67 ...
 
-_Updated 2026-10-01 23:21Z_
+
+_Updated 2026-10-02 00:31Z_
