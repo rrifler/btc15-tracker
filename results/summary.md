@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **NOT ENOUGH DATA**
-- Windows scored: 121; excluded: 0
-- Fill rate: 21.5% of scored windows had a fill (0 too small)
-- Fills that reached 45c: 11 of 26 = 42.3% (95% range 25.5% to 61.1%; pass needs the low end above 55.6% and at least 100 fills)
-- Paper profit after fees: $-5.00 (balance $15.00 from $20)
-- Longest losing streak: 5
-- Strict vs touch: strict 11/26 = 42.3%; touch 14/29 = 48.3%. The verdict uses strict.
+- Windows scored: 125; excluded: 0
+- Fill rate: 21.6% of scored windows had a fill (0 too small)
+- Fills that reached 45c: 11 of 27 = 40.7% (95% range 24.5% to 59.3%; pass needs the low end above 55.6% and at least 100 fills)
+- Paper profit after fees: $-5.75 (balance $14.25 from $20)
+- Longest losing streak: 6
+- Strict vs touch: strict 11/27 = 40.7%; touch 14/30 = 46.7%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -45,5 +45,10 @@ Scored: p1 down filled at 74s, exit hit 0; p2 none. Profit p1 -0.75.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.46, 2s@0.48, 3s@0.45, 5s@0.469999969, 5s@0.4699999727, 5s@0.469999906, 5s@0.469999906, 5s@0.469999906, 5s@0.47, 5s@0.47, 6s@0.4699999944, 6s@0.47 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.54, 5s@0.5399999568, 6s@0.5399999568, 6s@0.54, 8s@0.5199999792, 15s@0.5199999803, 15s@0.5199999692, 17s@0.5399999821, 17s@0.5399999887, 17s@0.5382754602, 17s@0.5199999889, 17s@0.5199999768 ...
 
+### 2026-10-02T07:45Z (market 5172362, result up)
+Scored: p1 down filled at 50s, exit hit 0; p2 none. Profit p1 -0.75.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.49, 3s@0.5099999304, 3s@0.51, 3s@0.5099998215, 3s@0.51, 3s@0.5099999966, 3s@0.5099999481, 3s@0.509999987, 3s@0.5099998215, 3s@0.51, 3s@0.4966887417, 5s@0.51 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.5, 9s@0.5, 14s@0.5, 15s@0.5, 15s@0.5, 15s@0.5, 15s@0.49, 50s@0.2, 50s@0.2, 50s@0.2, 51s@0.21, 51s@0.2 ...
 
-_Updated 2026-10-02 07:26Z_
+
+_Updated 2026-10-02 08:26Z_
