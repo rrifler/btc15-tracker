@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **NOT ENOUGH DATA**
-- Windows scored: 361; excluded: 0
-- Fill rate: 16.9% of scored windows had a fill (0 too small)
-- Fills that reached 45c: 30 of 61 = 49.2% (95% range 37.1% to 61.4%; pass needs the low end above 55.6% and at least 100 fills)
-- Paper profit after fees: $-5.65 (balance $14.35 from $20)
+- Windows scored: 365; excluded: 0
+- Fill rate: 17.0% of scored windows had a fill (0 too small)
+- Fills that reached 45c: 30 of 62 = 48.4% (95% range 36.4% to 60.6%; pass needs the low end above 55.6% and at least 100 fills)
+- Paper profit after fees: $-6.15 (balance $13.85 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 30/61 = 49.2%; touch 33/65 = 50.8%. The verdict uses strict.
+- Strict vs touch: strict 30/62 = 48.4%; touch 34/67 = 50.7%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -35,5 +35,10 @@ Scored: p1 down filled at 119s, exit hit 1; p2 none. Profit p1 0.4.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 1s@0.47, 1s@0.4699999691, 2s@0.4899999654, 2s@0.4899999654, 2s@0.47, 2s@0.4777874485, 2s@0.47, 2s@0.46, 2s@0.469999998, 2s@0.47, 4s@0.49, 4s@0.49 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.52, 4s@0.5199999792, 4s@0.5199999792, 5s@0.52, 5s@0.5199999792, 5s@0.5199999792, 5s@0.5199999792, 5s@0.52, 7s@0.5199999792, 7s@0.52, 7s@0.52, 7s@0.52 ...
 
+### 2026-10-04T22:00Z (market 5255728, result up)
+Scored: p1 down filled at 28s, exit hit 0; p2 none. Profit p1 -0.5.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.5899999797, 2s@0.5899999934, 2s@0.59, 4s@0.6199999676, 4s@0.5701282917, 4s@0.6032885906, 5s@0.62, 5s@0.6199999778, 5s@0.62, 7s@0.6599999291, 7s@0.65, 7s@0.64 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 28s@0.23, 29s@0.22, 31s@0.2, 31s@0.2, 32s@0.21, 32s@0.2, 32s@0.2, 34s@0.2, 34s@0.2299999992, 35s@0.22, 35s@0.2292520305, 38s@0.2 ...
 
-_Updated 2026-10-04 21:25Z_
+
+_Updated 2026-10-04 22:23Z_
