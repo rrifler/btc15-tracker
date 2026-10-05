@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **NOT ENOUGH DATA**
-- Windows scored: 398; excluded: 0
-- Fill rate: 17.1% of scored windows had a fill (0 too small)
-- Fills that reached 45c: 33 of 68 = 48.5% (95% range 37.1% to 60.2%; pass needs the low end above 55.6% and at least 100 fills)
-- Paper profit after fees: $-6.45 (balance $13.55 from $20)
+- Windows scored: 401; excluded: 0
+- Fill rate: 17.2% of scored windows had a fill (0 too small)
+- Fills that reached 45c: 33 of 69 = 47.8% (95% range 36.5% to 59.4%; pass needs the low end above 55.6% and at least 100 fills)
+- Paper profit after fees: $-6.95 (balance $13.05 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 33/68 = 48.5%; touch 37/73 = 50.7%. The verdict uses strict.
+- Strict vs touch: strict 33/69 = 47.8%; touch 37/74 = 50.0%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -45,5 +45,10 @@ Scored: p1 down filled at 100s, exit hit 0; p2 none. Profit p1 -0.5.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.5, 7s@0.53, 7s@0.51, 8s@0.55, 14s@0.5, 14s@0.5499999966, 16s@0.5, 16s@0.5299998463, 25s@0.54, 26s@0.58, 28s@0.5199999451, 28s@0.52 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@0.5, 7s@0.49, 14s@0.46, 16s@0.49, 17s@0.5, 23s@0.47, 26s@0.48, 29s@0.4899999824, 38s@0.48, 100s@0.21, 100s@0.21, 104s@0.19 ...
 
+### 2026-10-05T06:45Z (market 5269696, result up)
+Scored: p1 down filled at 103s, exit hit 0; p2 none. Profit p1 -0.5.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 8s@0.49, 10s@0.5, 10s@0.49, 61s@0.5499999738, 61s@0.54, 61s@0.52, 61s@0.51, 67s@0.55, 67s@0.55, 70s@0.5899999895, 70s@0.59, 71s@0.61 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.5199999792, 11s@0.5099999863, 26s@0.5099999516, 35s@0.51, 37s@0.5099999776, 43s@0.5099998215, 64s@0.46, 89s@0.45, 89s@0.45, 89s@0.4599999197, 94s@0.45, 103s@0.23 ...
 
-_Updated 2026-10-05 06:35Z_
+
+_Updated 2026-10-05 07:27Z_
