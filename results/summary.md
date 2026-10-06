@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **NOT ENOUGH DATA**
-- Windows scored: 477; excluded: 0
+- Windows scored: 481; excluded: 0
 - Fill rate: 17.0% of scored windows had a fill (0 too small)
-- Fills that reached 45c: 36 of 81 = 44.4% (95% range 34.1% to 55.3%; pass needs the low end above 55.6% and at least 100 fills)
-- Paper profit after fees: $-10.45 (balance $9.55 from $20)
+- Fills that reached 45c: 36 of 82 = 43.9% (95% range 33.7% to 54.7%; pass needs the low end above 55.6% and at least 100 fills)
+- Paper profit after fees: $-10.70 (balance $9.30 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 36/81 = 44.4%; touch 41/88 = 46.6%. The verdict uses strict.
+- Strict vs touch: strict 36/82 = 43.9%; touch 41/89 = 46.1%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -40,5 +40,10 @@ Scored: p1 down filled at 5s, exit hit 0; p2 none. Profit p1 -0.5.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 1s@0.64, 2s@0.6499999409, 2s@0.64, 4s@0.6571592211, 4s@0.72, 4s@0.7, 4s@0.68, 5s@0.77, 5s@0.76, 5s@0.7699999645, 5s@0.77, 5s@0.74 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.2399999808, 7s@0.2299999782, 8s@0.2299999965, 8s@0.2299999914, 10s@0.229999994, 10s@0.229999994, 11s@0.229999994, 11s@0.229999994, 11s@0.2299999922, 14s@0.229999994, 17s@0.22, 19s@0.23 ...
 
+### 2026-10-06T02:45Z (market 5311273, result down)
+Scored: p1 up filled at 58s, exit hit 0; p2 none. Profit p1 -0.25.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 58s@0.24, 58s@0.25, 60s@0.24, 61s@0.24, 66s@0.17, 66s@0.19, 67s@0.1899999962, 69s@0.18, 76s@0.2299999517, 78s@0.219999978, 79s@0.219999978, 82s@0.21 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.58, 0s@0.57, 3s@0.6, 4s@0.6169154008, 6s@0.64, 6s@0.6365387569, 6s@0.6299999181, 6s@0.629999937, 7s@0.64, 7s@0.65, 9s@0.6499999515, 9s@0.6499999861 ...
 
-_Updated 2026-10-06 02:24Z_
+
+_Updated 2026-10-06 03:24Z_
