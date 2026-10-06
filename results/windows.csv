@@ -516,3 +516,7 @@ window_start_utc,window_start,market_id,source,result,trade_count,excluded_reaso
 2026-10-06T11:30Z,1791286200,5320962,INTL_PROXY,up,654,,no_fill,,,,,,,,,0,0,,,,,8.2
 2026-10-06T11:45Z,1791287100,5321419,INTL_PROXY,down,705,,no_fill,,,,,,,,,0,0,,,,,8.2
 2026-10-06T12:00Z,1791288000,5322211,INTL_PROXY,up,696,,no_fill,,,,,,,,,0,0,,,,,8.2
+2026-10-06T12:15Z,1791288900,5323802,INTL_PROXY,down,606,,no_fill,,,,,,,,,0,0,,,,,8.2
+2026-10-06T12:30Z,1791289800,5324150,INTL_PROXY,up,541,,no_fill,,,,,,,,,0,0,,,,,8.2
+2026-10-06T12:45Z,1791290700,5324432,INTL_PROXY,down,855,,no_fill,,,,,,,,,0,0,,,,,8.2
+2026-10-06T13:00Z,1791291600,5324535,INTL_PROXY,down,524,,no_fill,,,,,,,,,0,0,,,,,8.2
