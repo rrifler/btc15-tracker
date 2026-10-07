@@ -15,13 +15,13 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 
 ## Live paper run
 
-- Verdict: **NOT ENOUGH DATA**
-- Windows scored: 573; excluded: 0
+- Verdict: **FAIL**
+- Windows scored: 577; excluded: 0
 - Fill rate: 17.3% of scored windows had a fill (0 too small)
-- Fills that reached 45c: 43 of 99 = 43.4% (95% range 34.1% to 53.3%; pass needs the low end above 55.6% and at least 100 fills)
-- Paper profit after fees: $-11.80 (balance $8.20 from $20)
+- Fills that reached 45c: 43 of 100 = 43.0% (95% range 33.7% to 52.8%; pass needs the low end above 55.6% and at least 100 fills)
+- Paper profit after fees: $-12.05 (balance $7.95 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 43/99 = 43.4%; touch 48/109 = 44.0%. The verdict uses strict.
+- Strict vs touch: strict 43/100 = 43.0%; touch 49/110 = 44.5%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -45,5 +45,10 @@ Scored: p1 up filled at 6s, exit hit 0; p2 none. Profit p1 -0.25.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 6s@0.24, 6s@0.24, 6s@0.2399999808, 6s@0.25, 8s@0.2299999914, 8s@0.23, 8s@0.23, 8s@0.2399999808, 8s@0.23, 8s@0.2399999808, 8s@0.2299999517, 8s@0.2299999517 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.649999987, 2s@0.64, 2s@0.64, 2s@0.63, 2s@0.63, 2s@0.63, 2s@0.62, 2s@0.6299999933, 3s@0.7312934, 3s@0.7299999563, 3s@0.7392008626, 3s@0.719999977 ...
 
+### 2026-10-07T02:45Z (market 5360930, result up)
+Scored: p1 down filled at 84s, exit hit 0; p2 none. Profit p1 -0.25.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.5399999568, 5s@0.5299999783, 5s@0.53, 5s@0.53, 5s@0.53, 6s@0.5299999883, 6s@0.5299999797, 6s@0.5299998463, 8s@0.54, 8s@0.53, 8s@0.54, 8s@0.53 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.47, 3s@0.47, 3s@0.469999906, 5s@0.4799998464, 5s@0.4799998464, 6s@0.48, 74s@0.25, 78s@0.25, 84s@0.24, 159s@0.45, 332s@0.2399999981, 360s@0.2099999988 ...
 
-_Updated 2026-10-07 02:24Z_
+
+_Updated 2026-10-07 03:25Z_
