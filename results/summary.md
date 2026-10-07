@@ -16,8 +16,8 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 633; excluded: 0
-- Fill rate: 16.6% of scored windows had a fill (0 too small)
+- Windows scored: 637; excluded: 0
+- Fill rate: 16.5% of scored windows had a fill (0 too small)
 - Fills that reached 45c: 45 of 105 = 42.9% (95% range 33.8% to 52.4%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-12.40 (balance $7.60 from $20)
 - Longest losing streak: 8
@@ -41,4 +41,4 @@ Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@0.4599999387, 5s@0.46, 5s@0.4599999814, 5s@0.46, 11s@0.4599999819, 13s@0.4599999387, 80s@0.229999994, 82s@0.2099999969, 86s@0.2099999895, 91s@0.2, 95s@0.1899999842, 97s@0.1926284928 ...
 
 
-_Updated 2026-10-07 17:27Z_
+_Updated 2026-10-07 18:29Z_
