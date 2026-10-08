@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 697; excluded: 0
+- Windows scored: 701; excluded: 0
 - Fill rate: 16.1% of scored windows had a fill (0 too small)
-- Fills that reached 45c: 48 of 112 = 42.9% (95% range 34.1% to 52.1%; pass needs the low end above 55.6% and at least 100 fills)
-- Paper profit after fees: $-12.80 (balance $7.20 from $20)
+- Fills that reached 45c: 49 of 113 = 43.4% (95% range 34.6% to 52.6%; pass needs the low end above 55.6% and at least 100 fills)
+- Paper profit after fees: $-12.60 (balance $7.40 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 48/112 = 42.9%; touch 54/122 = 44.3%. The verdict uses strict.
+- Strict vs touch: strict 49/113 = 43.4%; touch 55/123 = 44.7%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -35,5 +35,10 @@ Scored: p1 down filled at 97s, exit hit 1; p2 none. Profit p1 0.2.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@0.5899997404, 5s@0.64, 5s@0.64, 5s@0.64, 5s@0.64, 5s@0.64, 5s@0.64, 5s@0.64, 5s@0.64, 8s@0.64, 8s@0.64, 10s@0.64 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 43s@0.48, 46s@0.48, 49s@0.46, 97s@0.2399999808, 101s@0.24, 103s@0.25, 106s@0.25, 125s@0.25, 205s@0.2399999693, 206s@0.25, 224s@0.2299999517, 226s@0.25 ...
 
+### 2026-10-08T09:15Z (market 5402424, result down)
+Scored: p1 up filled at 50s, exit hit 1; p2 none. Profit p1 0.2.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.45, 5s@0.4599997976, 5s@0.4599999034, 12s@0.4899998383, 50s@0.23, 51s@0.2199999922, 54s@0.21, 56s@0.21, 57s@0.2199999941, 69s@0.21, 72s@0.2099999895, 78s@0.2099999983 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.56, 15s@0.59, 15s@0.5679242487, 15s@0.55, 15s@0.55, 17s@0.6, 21s@0.6, 21s@0.6, 24s@0.6099999744, 26s@0.62, 27s@0.63, 29s@0.65 ...
 
-_Updated 2026-10-08 09:27Z_
+
+_Updated 2026-10-08 10:27Z_
