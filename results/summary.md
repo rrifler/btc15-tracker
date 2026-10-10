@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 909; excluded: 0
+- Windows scored: 913; excluded: 0
 - Fill rate: 16.4% of scored windows had a fill (0 too small)
-- Fills that reached 45c: 69 of 149 = 46.3% (95% range 38.5% to 54.3%; pass needs the low end above 55.6% and at least 100 fills)
-- Paper profit after fees: $-12.60 (balance $7.40 from $20)
+- Fills that reached 45c: 70 of 150 = 46.7% (95% range 38.9% to 54.6%; pass needs the low end above 55.6% and at least 100 fills)
+- Paper profit after fees: $-12.40 (balance $7.60 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 69/149 = 46.3%; touch 76/162 = 46.9%. The verdict uses strict.
+- Strict vs touch: strict 70/150 = 46.7%; touch 77/163 = 47.2%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -35,5 +35,10 @@ Scored: p1 down filled at 114s, exit hit 0; p2 none. Profit p1 -0.25.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.5899998466, 3s@0.55, 4s@0.6, 6s@0.61, 7s@0.6099999756, 9s@0.6, 9s@0.61, 10s@0.599999976, 13s@0.6099998597, 15s@0.6099999766, 18s@0.6099998597, 19s@0.62 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.46, 3s@0.47, 3s@0.4606882128, 3s@0.46, 114s@0.24, 115s@0.24, 117s@0.24, 117s@0.24, 121s@0.2399999808, 127s@0.21, 145s@0.2199999961, 147s@0.219999978 ...
 
+### 2026-10-10T14:30Z (market 5458054, result up)
+Scored: p1 down filled at 6s, exit hit 1; p2 none. Profit p1 0.2.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.629999937, 0s@0.62, 0s@0.61, 0s@0.6, 0s@0.5941747457, 0s@0.58, 0s@0.5799999673, 0s@0.57, 1s@0.63, 1s@0.6099999322, 3s@0.70246, 3s@0.649585992 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@0.25, 6s@0.219999978, 6s@0.2299999998, 6s@0.2299999961, 7s@0.22, 7s@0.2199999983, 19s@0.49, 19s@0.45, 19s@0.4535205184, 22s@0.469999998, 24s@0.47, 30s@0.5073003874 ...
 
-_Updated 2026-10-10 14:23Z_
+
+_Updated 2026-10-10 15:23Z_
