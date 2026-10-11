@@ -1,0 +1,5 @@
+{
+  "halted": true,
+  "consecutive_losses": 0,
+  "reason": "clock off by 1.0s"
+}

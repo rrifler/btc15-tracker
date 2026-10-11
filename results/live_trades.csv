@@ -1,0 +1,2 @@
+ts_utc,window_start,mode,event,side,price,qty,order_id,detail
+2026-10-11T18:09:46Z,,dry,halt,,,,,clock off by 1.0s
