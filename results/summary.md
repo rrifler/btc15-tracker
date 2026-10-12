@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 1061; excluded: 0
+- Windows scored: 1065; excluded: 0
 - Fill rate: 16.2% of scored windows had a fill (0 too small)
-- Fills that reached 45c: 77 of 172 = 44.8% (95% range 37.5% to 52.2%; pass needs the low end above 55.6% and at least 100 fills)
-- Paper profit after fees: $-14.75 (balance $5.25 from $20)
+- Fills that reached 45c: 77 of 173 = 44.5% (95% range 37.3% to 52.0%; pass needs the low end above 55.6% and at least 100 fills)
+- Paper profit after fees: $-15.00 (balance $5.00 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 77/172 = 44.8%; touch 85/187 = 45.5%. The verdict uses strict.
+- Strict vs touch: strict 77/173 = 44.5%; touch 85/188 = 45.2%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -45,5 +45,10 @@ Scored: p1 up filled at 51s, exit hit 0; p2 none. Profit p1 -0.25.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 51s@0.2399999852, 53s@0.24, 54s@0.22, 56s@0.22, 59s@0.219999978, 71s@0.1799999856, 75s@0.16, 77s@0.1679012342, 78s@0.1720706406, 80s@0.18, 80s@0.2, 81s@0.1899999962 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.5, 6s@0.5099999442, 6s@0.5, 6s@0.5, 8s@0.5, 9s@0.5199999692, 9s@0.5199999692, 9s@0.5099999841, 9s@0.51, 11s@0.53, 11s@0.56, 11s@0.5495833333 ...
 
+### 2026-10-12T04:30Z (market 5535830, result up)
+Scored: p1 down filled at 92s, exit hit 0; p2 none. Profit p1 -0.25.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.52, 8s@0.5, 17s@0.6, 17s@0.6, 17s@0.5216666667, 17s@0.57, 17s@0.53, 18s@0.5999999607, 18s@0.6, 21s@0.5899999145, 24s@0.59, 24s@0.59 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.5, 5s@0.4980258256, 6s@0.5, 92s@0.2, 95s@0.21, 176s@0.23, 230s@0.21, 230s@0.2099999895, 231s@0.21, 233s@0.21, 242s@0.2199999941, 245s@0.21 ...
 
-_Updated 2026-10-12 04:28Z_
+
+_Updated 2026-10-12 05:27Z_
