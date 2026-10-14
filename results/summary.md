@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 1290; excluded: 0
-- Fill rate: 17.4% of scored windows had a fill (51 too small)
+- Windows scored: 1294; excluded: 0
+- Fill rate: 17.5% of scored windows had a fill (52 too small)
 - Fills that reached 45c: 77 of 174 = 44.3% (95% range 37.1% to 51.7%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-15.25 (balance $4.75 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 77/174 = 44.3%; touch 114/250 = 45.6%. The verdict uses strict.
+- Strict vs touch: strict 77/174 = 44.3%; touch 114/251 = 45.4%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -45,5 +45,10 @@ Scored: p1 up filled at 8s, exit hit 0; p2 none. Profit p1 0.0.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.51, 0s@0.5199999358, 3s@0.55, 3s@0.67, 3s@0.53, 3s@0.55, 3s@0.5299999998, 3s@0.53, 6s@0.62, 6s@0.53, 6s@0.62, 8s@0.2399999928 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.4849794923, 6s@0.77, 6s@0.55, 6s@0.7326583333, 6s@0.76, 6s@0.606, 6s@0.7493333333, 8s@0.7633333333, 8s@0.55, 8s@0.6638, 8s@0.76, 9s@0.7831106002 ...
 
+### 2026-10-14T13:30Z (market 5648814, result up)
+Scored: p1 down filled at 63s, exit hit 0; p2 none. Profit p1 0.0.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.554, 5s@0.54, 5s@0.54, 6s@0.54, 6s@0.55, 6s@0.54, 8s@0.54, 8s@0.54, 9s@0.5499999943, 9s@0.5499999214, 9s@0.5499999214, 15s@0.53 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.45, 2s@0.4599999992, 2s@0.4502101584, 2s@0.4599999992, 3s@0.46, 5s@0.47, 5s@0.47, 5s@0.4699999899, 6s@0.4599999987, 6s@0.4599999687, 8s@0.4599999801, 12s@0.45 ...
 
-_Updated 2026-10-14 13:41Z_
+
+_Updated 2026-10-14 14:37Z_
