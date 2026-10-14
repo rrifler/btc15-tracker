@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 1294; excluded: 0
-- Fill rate: 17.5% of scored windows had a fill (52 too small)
+- Windows scored: 1298; excluded: 0
+- Fill rate: 17.5% of scored windows had a fill (53 too small)
 - Fills that reached 45c: 77 of 174 = 44.3% (95% range 37.1% to 51.7%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-15.25 (balance $4.75 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 77/174 = 44.3%; touch 114/251 = 45.4%. The verdict uses strict.
+- Strict vs touch: strict 77/174 = 44.3%; touch 115/252 = 45.6%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -51,4 +51,4 @@ Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.45, 2s@0.4599999992, 2s@0.4502101584, 2s@0.4599999992, 3s@0.46, 5s@0.47, 5s@0.47, 5s@0.4699999899, 6s@0.4599999987, 6s@0.4599999687, 8s@0.4599999801, 12s@0.45 ...
 
 
-_Updated 2026-10-14 14:37Z_
+_Updated 2026-10-14 15:42Z_
