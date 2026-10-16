@@ -16,7 +16,7 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 1425; excluded: 0
+- Windows scored: 1430; excluded: 0
 - Fill rate: 17.5% of scored windows had a fill (76 too small)
 - Fills that reached 45c: 77 of 174 = 44.3% (95% range 37.1% to 51.7%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-15.25 (balance $4.75 from $20)
@@ -24,11 +24,6 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 - Strict vs touch: strict 77/174 = 44.3%; touch 129/278 = 46.4%. The verdict uses strict.
 
 ## Spot-checked windows
-
-### 2026-10-15T17:15Z (market 5693657, result up)
-Scored: p1 down filled at 74s, exit hit 0; p2 none. Profit p1 0.0.
-Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.5, 2s@0.5, 2s@0.5, 2s@0.5, 4s@0.5175119596, 4s@0.51, 5s@0.6, 5s@0.52, 5s@0.52, 7s@0.5916666667, 8s@0.5904761905, 8s@0.57 ...
-Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.5, 4s@0.49, 4s@0.5, 59s@0.25, 74s@0.22, 74s@0.219999978, 76s@0.219999999, 86s@0.1699999983, 86s@0.1799999856, 91s@0.16, 92s@0.139999993, 92s@0.13 ...
 
 ### 2026-10-15T19:30Z (market 5699967, result down)
 Scored: p1 up filled at 35s, exit hit 0; p2 none. Profit p1 0.0.
@@ -51,4 +46,4 @@ Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 57s
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@0.56, 7s@0.65, 12s@0.6499999959, 13s@0.65, 25s@0.66, 28s@0.71, 28s@0.71, 28s@0.7099999606, 28s@0.6899999795, 28s@0.66, 31s@0.72, 34s@0.7299999863 ...
 
 
-_Updated 2026-10-15 23:30Z_
+_Updated 2026-10-16 00:45Z_
