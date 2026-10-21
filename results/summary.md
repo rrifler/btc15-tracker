@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 1909; excluded: 1 (trades_truncated: 1)
-- Fill rate: 18.8% of scored windows had a fill (185 too small)
+- Windows scored: 1913; excluded: 1 (trades_truncated: 1)
+- Fill rate: 18.8% of scored windows had a fill (186 too small)
 - Fills that reached 45c: 77 of 174 = 44.3% (95% range 37.1% to 51.7%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-15.25 (balance $4.75 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 77/174 = 44.3%; touch 180/396 = 45.5%. The verdict uses strict.
+- Strict vs touch: strict 77/174 = 44.3%; touch 180/397 = 45.3%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -45,5 +45,10 @@ Scored: p1 up filled at 18s, exit hit 1; p2 none. Profit p1 0.0.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.469999906, 18s@0.23, 18s@0.2299999945, 20s@0.23, 20s@0.23, 20s@0.229999994, 20s@0.229999994, 21s@0.22, 21s@0.2299999517, 21s@0.229999994, 23s@0.2299999517, 24s@0.24 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.539999986, 3s@0.55, 6s@0.6199999868, 6s@0.62, 8s@0.6415401023, 8s@0.64, 8s@0.6222413793, 11s@0.64, 15s@0.6699999882, 15s@0.64, 15s@0.63, 15s@0.62 ...
 
+### 2026-10-21T01:00Z (market 5951843, result down)
+Scored: p1 up filled at 51s, exit hit 0; p2 none. Profit p1 0.0.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 51s@0.219999978, 51s@0.25, 59s@0.1799999964, 60s@0.1799999964, 63s@0.1699999983, 65s@0.14, 68s@0.1399999963, 71s@0.1499999925, 71s@0.15, 72s@0.16, 72s@0.16, 74s@0.1499999989 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.5699999886, 5s@0.6031715458, 6s@0.59999988, 6s@0.6, 6s@0.594, 11s@0.6, 38s@0.7199999424, 41s@0.7268422856, 41s@0.71, 45s@0.7299998102, 48s@0.75, 48s@0.7429245256 ...
 
-_Updated 2026-10-21 00:45Z_
+
+_Updated 2026-10-21 01:40Z_
