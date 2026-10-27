@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 2512; excluded: 2 (trades_truncated: 2)
-- Fill rate: 19.0% of scored windows had a fill (304 too small)
+- Windows scored: 2516; excluded: 2 (trades_truncated: 2)
+- Fill rate: 19.0% of scored windows had a fill (305 too small)
 - Fills that reached 45c: 77 of 174 = 44.3% (95% range 37.1% to 51.7%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-15.25 (balance $4.75 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 77/174 = 44.3%; touch 248/533 = 46.5%. The verdict uses strict.
+- Strict vs touch: strict 77/174 = 44.3%; touch 248/534 = 46.4%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -45,5 +45,10 @@ Scored: p1 down filled at 113s, exit hit 1; p2 none. Profit p1 0.0.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.5299999883, 3s@0.55, 3s@0.55, 3s@0.54, 3s@0.54, 6s@0.57, 6s@0.5699999886, 8s@0.61, 9s@0.61, 12s@0.6387225549, 14s@0.6499999825, 14s@0.65 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 21s@0.4538888889, 21s@0.48, 21s@0.47, 113s@0.18, 113s@0.1799999811, 113s@0.18, 114s@0.18, 114s@0.18, 116s@0.19, 131s@0.1799999856, 132s@0.1799999856, 135s@0.2 ...
 
+### 2026-10-27T08:00Z (market 6245155, result up)
+Scored: p1 down filled at 110s, exit hit 0; p2 none. Profit p1 0.0.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.51, 6s@0.54, 9s@0.56, 9s@0.5599999686, 9s@0.5599999642, 9s@0.5599999851, 24s@0.6199999781, 24s@0.6199999574, 26s@0.5999999813, 26s@0.62, 26s@0.62, 30s@0.62 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 24s@0.45, 93s@0.25, 110s@0.2299999993, 122s@0.2299999693, 126s@0.25, 156s@0.21, 156s@0.21, 156s@0.1763414634, 161s@0.2277227696, 164s@0.21, 167s@0.2199999974, 167s@0.21 ...
 
-_Updated 2026-10-27 07:49Z_
+
+_Updated 2026-10-27 08:44Z_
