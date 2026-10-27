@@ -16,19 +16,14 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 2528; excluded: 2 (trades_truncated: 2)
-- Fill rate: 19.1% of scored windows had a fill (308 too small)
+- Windows scored: 2532; excluded: 2 (trades_truncated: 2)
+- Fill rate: 19.1% of scored windows had a fill (309 too small)
 - Fills that reached 45c: 77 of 174 = 44.3% (95% range 37.1% to 51.7%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-15.25 (balance $4.75 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 77/174 = 44.3%; touch 250/538 = 46.5%. The verdict uses strict.
+- Strict vs touch: strict 77/174 = 44.3%; touch 250/539 = 46.4%. The verdict uses strict.
 
 ## Spot-checked windows
-
-### 2026-10-27T06:00Z (market 6242191, result down)
-Scored: p1 up filled at 104s, exit hit 1; p2 none. Profit p1 0.0.
-Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 71s@0.25, 72s@0.25, 72s@0.25, 83s@0.25, 93s@0.25, 96s@0.25, 98s@0.25, 104s@0.1699999972, 104s@0.1699999933, 104s@0.15, 104s@0.16, 104s@0.14 ...
-Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.6, 3s@0.59999988, 8s@0.61, 17s@0.6299999898, 23s@0.61, 38s@0.59, 56s@0.6299999181, 60s@0.64, 60s@0.66, 60s@0.65, 60s@0.64, 60s@0.65 ...
 
 ### 2026-10-27T06:15Z (market 6242272, result down)
 Scored: p1 up filled at 90s, exit hit 0; p2 none. Profit p1 0.0.
@@ -50,5 +45,10 @@ Scored: p1 down filled at 29s, exit hit 0; p2 none. Profit p1 0.0.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.6, 2s@0.599999976, 2s@0.6, 2s@0.6, 6s@0.6199999449, 8s@0.6366839378, 9s@0.64, 11s@0.63, 12s@0.71, 15s@0.72, 18s@0.71, 18s@0.7 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 29s@0.2099999895, 32s@0.25, 32s@0.25, 32s@0.25, 32s@0.21, 32s@0.23, 35s@0.25, 36s@0.2199999974, 38s@0.2199999974, 39s@0.25, 39s@0.25, 39s@0.25 ...
 
+### 2026-10-27T11:00Z (market 6247369, result up)
+Scored: p1 down filled at 114s, exit hit 0; p2 none. Profit p1 0.0.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 0s@0.5299998463, 3s@0.53, 6s@0.58, 6s@0.58, 9s@0.5799999936, 9s@0.58, 12s@0.58, 12s@0.58, 15s@0.58, 18s@0.59, 18s@0.5899999725, 20s@0.6 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.4799999616, 114s@0.2099999983, 120s@0.2199999974, 120s@0.2, 120s@0.2, 122s@0.2199999974, 123s@0.2199999933, 146s@0.16, 146s@0.16, 158s@0.1335365854, 158s@0.14, 158s@0.15 ...
 
-_Updated 2026-10-27 11:40Z_
+
+_Updated 2026-10-27 12:46Z_
