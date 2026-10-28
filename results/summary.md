@@ -16,12 +16,12 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 2585; excluded: 2 (trades_truncated: 2)
-- Fill rate: 19.1% of scored windows had a fill (320 too small)
+- Windows scored: 2588; excluded: 2 (trades_truncated: 2)
+- Fill rate: 19.1% of scored windows had a fill (321 too small)
 - Fills that reached 45c: 77 of 174 = 44.3% (95% range 37.1% to 51.7%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-15.25 (balance $4.75 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 77/174 = 44.3%; touch 255/550 = 46.4%. The verdict uses strict.
+- Strict vs touch: strict 77/174 = 44.3%; touch 256/551 = 46.5%. The verdict uses strict.
 
 ## Spot-checked windows
 
@@ -45,5 +45,10 @@ Scored: p1 down filled at 36s, exit hit 0; p2 none. Profit p1 0.0.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.5899999969, 5s@0.5899999939, 6s@0.5999999974, 6s@0.6, 6s@0.6, 6s@0.5999998835, 6s@0.5999999974, 6s@0.6, 8s@0.63, 8s@0.6199999966, 8s@0.6299998362, 8s@0.6072607954 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.45, 35s@0.25, 36s@0.22, 36s@0.21, 36s@0.2099999983, 39s@0.2299999975, 41s@0.2299999979, 44s@0.2199999974, 47s@0.24, 47s@0.2272905159, 47s@0.2121757056, 48s@0.24 ...
 
+### 2026-10-28T02:15Z (market 6282788, result down)
+Scored: p1 down filled at 111s, exit hit 1; p2 none. Profit p1 0.0.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.5099999215, 14s@0.5099999215, 18s@0.5099999776, 21s@0.52, 21s@0.5, 26s@0.53, 41s@0.5499999928, 56s@0.5399999568, 68s@0.48, 68s@0.48, 72s@0.52, 75s@0.5599999538 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 3s@0.5, 3s@0.5, 8s@0.5, 9s@0.5, 11s@0.5, 20s@0.5099999975, 20s@0.5, 24s@0.4799999616, 44s@0.4599999916, 54s@0.4599999504, 56s@0.49, 56s@0.49 ...
 
-_Updated 2026-10-28 01:58Z_
+
+_Updated 2026-10-28 02:49Z_
