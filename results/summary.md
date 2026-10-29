@@ -16,39 +16,39 @@ Real money needs PASS in both the backtest and the live paper run, with the live
 ## Live paper run
 
 - Verdict: **FAIL**
-- Windows scored: 2658; excluded: 2 (trades_truncated: 2)
-- Fill rate: 19.2% of scored windows had a fill (337 too small)
+- Windows scored: 2674; excluded: 2 (trades_truncated: 2)
+- Fill rate: 19.2% of scored windows had a fill (340 too small)
 - Fills that reached 45c: 77 of 174 = 44.3% (95% range 37.1% to 51.7%; pass needs the low end above 55.6% and at least 100 fills)
 - Paper profit after fees: $-15.25 (balance $4.75 from $20)
 - Longest losing streak: 8
-- Strict vs touch: strict 77/174 = 44.3%; touch 263/568 = 46.3%. The verdict uses strict.
+- Strict vs touch: strict 77/174 = 44.3%; touch 264/571 = 46.2%. The verdict uses strict.
 
 ## Spot-checked windows
-
-### 2026-10-28T15:30Z (market 6301049, result down)
-Scored: p1 up filled at 73s, exit hit 0; p2 none. Profit p1 0.0.
-Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 73s@0.2199999974, 76s@0.1899999962, 79s@0.1699999983, 83s@0.149999997, 83s@0.16, 88s@0.1499999925, 88s@0.15, 88s@0.15, 91s@0.12, 94s@0.11, 94s@0.11, 95s@0.109999989 ...
-Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@0.59999988, 5s@0.63, 7s@0.6299998362, 10s@0.629999952, 10s@0.629999997, 19s@0.63, 28s@0.63, 47s@0.6499999511, 47s@0.6499999264, 47s@0.6799999819, 47s@0.65, 47s@0.65 ...
-
-### 2026-10-28T16:00Z (market 6304473, result up)
-Scored: p1 down filled at 80s, exit hit 1; p2 none. Profit p1 0.0.
-Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 1s@0.5499999904, 5s@0.5099998215, 8s@0.5199999792, 10s@0.520727406, 13s@0.5299999797, 19s@0.53, 31s@0.54, 32s@0.6346153846, 32s@0.5799999768, 32s@0.54, 32s@0.5631067546, 34s@0.65 ...
-Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.5, 5s@0.5, 5s@0.5, 5s@0.5, 10s@0.4799999616, 19s@0.48, 23s@0.5, 23s@0.4958333333, 80s@0.2399999896, 82s@0.2399999901, 83s@0.2399999981, 85s@0.2466666667 ...
-
-### 2026-10-28T17:00Z (market 6311765, result down)
-Scored: p1 up filled at 61s, exit hit 0; p2 none. Profit p1 0.0.
-Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 61s@0.22, 65s@0.23, 92s@0.24, 101s@0.22, 101s@0.23, 103s@0.24, 103s@0.24, 103s@0.24, 109s@0.25, 109s@0.219999987, 116s@0.21, 119s@0.2299999782 ...
-Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.5699999436, 4s@0.6, 4s@0.62, 5s@0.67, 5s@0.65, 5s@0.65, 7s@0.66, 7s@0.67, 8s@0.68, 8s@0.67, 16s@0.6599999992, 16s@0.66 ...
-
-### 2026-10-28T18:45Z (market 6318030, result down)
-Scored: p1 up filled at 43s, exit hit 0; p2 none. Profit p1 0.0.
-Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 43s@0.2, 43s@0.2, 43s@0.2, 46s@0.2, 50s@0.2, 62s@0.21, 62s@0.2099999914, 64s@0.209999997, 64s@0.209999997, 67s@0.1979057592, 67s@0.2, 68s@0.2 ...
-Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@0.61, 4s@0.6099999736, 4s@0.6199998512, 4s@0.6199999749, 5s@0.61, 5s@0.6099999365, 8s@0.615, 8s@0.61, 13s@0.62, 14s@0.63, 14s@0.6502940689, 17s@0.64 ...
 
 ### 2026-10-28T20:00Z (market 6322959, result down)
 Scored: p1 down filled at 68s, exit hit 1; p2 none. Profit p1 0.0.
 Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.5501754077, 4s@0.55, 4s@0.56, 5s@0.5899999725, 5s@0.6, 8s@0.6, 8s@0.6, 8s@0.598, 8s@0.59, 11s@0.6, 13s@0.599999976, 13s@0.5999999754 ...
 Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.4599999387, 68s@0.2425, 70s@0.25, 74s@0.24, 80s@0.2, 80s@0.2, 82s@0.21, 82s@0.2, 83s@0.21543, 85s@0.25, 85s@0.23, 86s@0.25 ...
 
+### 2026-10-28T20:30Z (market 6323762, result down)
+Scored: p1 down filled at 113s, exit hit 1; p2 none. Profit p1 0.0.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 1s@0.6, 1s@0.6, 1s@0.59, 1s@0.58, 1s@0.59, 1s@0.59, 5s@0.64, 5s@0.64, 11s@0.6, 11s@0.6, 16s@0.57, 20s@0.6 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 112s@0.25, 113s@0.22, 119s@0.2099999895, 125s@0.1799999856, 137s@0.12, 143s@0.12, 145s@0.13, 145s@0.1365141322, 146s@0.13, 149s@0.1399999923, 149s@0.1399999984, 157s@0.1299999948 ...
 
-_Updated 2026-10-28 21:38Z_
+### 2026-10-28T21:45Z (market 6326113, result up)
+Scored: p1 down filled at 47s, exit hit 0; p2 none. Profit p1 0.0.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 2s@0.5799999936, 2s@0.56, 5s@0.5699999214, 5s@0.5699999467, 5s@0.5699999467, 7s@0.59, 8s@0.6125896409, 13s@0.62, 13s@0.62, 14s@0.63, 16s@0.64, 17s@0.64 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 47s@0.24, 55s@0.25, 55s@0.25, 62s@0.2399999808, 70s@0.2399999952, 85s@0.2, 85s@0.2, 86s@0.2, 100s@0.18, 112s@0.1799999986, 115s@0.18, 124s@0.17 ...
+
+### 2026-10-28T22:30Z (market 6326441, result up)
+Scored: p1 down filled at 113s, exit hit 0; p2 none. Profit p1 0.0.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 5s@0.51, 10s@0.58, 10s@0.58, 11s@0.6, 13s@0.599999988, 19s@0.4899999953, 20s@0.4899999869, 20s@0.4899999584, 23s@0.4899999884, 23s@0.49, 25s@0.5, 26s@0.49 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@0.5, 17s@0.4801999827, 17s@0.46, 17s@0.46, 19s@0.49, 19s@0.4899998383, 19s@0.49, 20s@0.51, 29s@0.5099999949, 113s@0.17, 113s@0.17, 113s@0.17 ...
+
+### 2026-10-28T23:00Z (market 6327000, result up)
+Scored: p1 up filled at 40s, exit hit 1; p2 none. Profit p1 0.0.
+Up trades at or below 0.25 or at or above 0.45 (seconds after start, price): 40s@0.2099999895, 55s@0.1699999983, 58s@0.16, 62s@0.15, 67s@0.14, 68s@0.1493212663, 77s@0.15, 77s@0.1499999997, 79s@0.1499999925, 79s@0.1499999997, 82s@0.1499999997, 89s@0.15 ...
+Down trades at or below 0.25 or at or above 0.45 (seconds after start, price): 4s@0.5899999596, 4s@0.59, 4s@0.59, 4s@0.56, 4s@0.51, 5s@0.58, 5s@0.5899999878, 7s@0.6599999686, 7s@0.66, 7s@0.6299999953, 7s@0.6299998858, 7s@0.62 ...
+
+
+_Updated 2026-10-29 01:46Z_
